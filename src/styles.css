@@ -163,6 +163,7 @@ body {
   top: 276px;
   color: #344563;
   margin-top: 0;
+  margin-top: -40px;
 }
 
 p.intro1 {
@@ -179,6 +180,7 @@ p.intro1 {
   display: flex;
   align-items: flex-start;
   padding-left: 24px;
+  margin-top: -60px;
 }
 
 .social {
@@ -438,6 +440,7 @@ li.social-icon {
   width: 90%;
   left: 0.5px;
   top: 0.5px;
+  right: auto;
   padding: 24px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -1051,9 +1054,10 @@ ul.project__lang {
   .about {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     border-radius: 0 100px 0 0;
     width: 99%;
-    padding: 2px;
+    padding: 20px;
   }
 
   .about p {
@@ -1065,7 +1069,7 @@ ul.project__lang {
   }
 
   .about-me {
-    padding: 2%;
+    padding: 22%;
     margin-left: 3%;
   }
 
