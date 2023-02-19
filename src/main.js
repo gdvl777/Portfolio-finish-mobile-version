@@ -83,7 +83,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
             <img src='${projectsList[i].imageLink}' alt='work 1' class='' />
           </div>
           <div class='project-description'>
-            <h1 class='title'>${projectsList[i].name}</h1>
+            <h2 class='title'>${projectsList[i].name}</h2>
             <div class='role row'>
               <div class="role-name">${projectsList[i].company}</div>
                 <div class="role-dot"></div>
