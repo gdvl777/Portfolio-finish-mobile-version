@@ -179,7 +179,8 @@ p.intro1 {
   line-height: 24px;
   display: flex;
   align-items: flex-start;
-  padding-left: 24px;
+  padding-left: 15px;
+  padding-top:35px;
 }
 
 .social {
@@ -428,20 +429,29 @@ li.social-icon {
   color: #fff;
 }
 
+button:active {
+  background-color: #2230D2;
+}
+
+.btn:active {
+  background-color: #2230D2;
+}
+
 .about {
   background: #fff;
-  width: 100%;
+  width: 70%;
   padding: 64px;
+  border-top-right-radius: 55px;
 }
 
 .about-me {
   display: flex;
   position: static;
-  width: 90%;
+  width: 70%;
   left: 0.5px;
   top: 0.5px;
   right: auto;
-  padding: 24px;
+  padding: 15px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
