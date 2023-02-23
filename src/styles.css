@@ -180,7 +180,7 @@ p.intro1 {
   display: flex;
   align-items: flex-start;
   padding-left: 15px;
-  padding-top:35px;
+  padding-top: 35px;
 }
 
 .social {
@@ -430,11 +430,11 @@ li.social-icon {
 }
 
 button:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
 }
 
 .btn:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
 }
 
 .about {
