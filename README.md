@@ -51,7 +51,6 @@ After you're finished please remove all the comments and instructions!
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -147,6 +146,18 @@ Run the command below from the Terminal:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+Features coming soon
+- **Add HTML file**
+
+- **Add CSS file**
+
+- **Live Demo on GitHub**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
