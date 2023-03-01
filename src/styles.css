@@ -157,14 +157,15 @@ textarea::placeholder {
 }
 
 input[type="name"]::placeholder {
-  color: #172B4d;
+  color: #172b4d;
   font-size: 17px;
 }
 
 input[type="email"]::placeholder {
-  color:#172B4d;
+  color: #172b4d;
   font-size: 17px;
 }
+
 .intro1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
