@@ -150,19 +150,19 @@ body {
   }
 }
 
-textarea::placeholder{
+textarea::placeholder {
   color: #b3bac5;
   padding-top: 15px;
   font-size: 15px;
 }
 
 input[type="name"]::placeholder {
-  color:#172B4D;
+  color: #172B4d;
   font-size: 17px;
 }
 
 input[type="email"]::placeholder {
-  color:#172B4D;
+  color:#172B4d;
   font-size: 17px;
 }
 .intro1 {
