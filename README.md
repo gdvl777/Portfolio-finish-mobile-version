@@ -43,10 +43,21 @@ After you're finished please remove all the comments and instructions!
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -71,10 +82,42 @@ After you're finished please remove all the comments and instructions!
     <li>linters</li>
   </ul>
 </details>
+<!-- Features -->
 
+### Key Features <a name="key-features"></a>
+
+- **Add HTML file**
+
+- **Add CSS file**
+
+- **Publish on GitHub**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+-- No deployed link yet
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+> To get a local copy up and running, follow these steps.
+
+
+### Prerequisites
+
+In order to run this project you need:In order to run this project you need:
+◦ Installation of Git
+◦ Installation of NPM
+◦ A working browser
+◦ Internet connection
+◦ A code editor like Visual Studio Code
+◦ Installation of Live Server plugging in Visual Studio Code
 
 Please get your browser update.
 To get a local copy up and running follow these simple steps.
@@ -97,6 +140,9 @@ Run the command below from the Terminal:
 
 - GitHub: [@gdvl777](https://github.com/gdvl777)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dvillalba777//)  
+
+👤 **Author2**
+- GitHub: [@Aminocodex](https://github.com/Aminocodex)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
