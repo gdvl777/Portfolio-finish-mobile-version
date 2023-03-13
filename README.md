@@ -141,7 +141,8 @@ Run the command below from the Terminal:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dvillalba777//)  
 
 👤 **Author2**
-- GitHub: [@Aminocodex](https://github.com/Aminocodex)
+- GitHub: [@solog0039](https://github.com/solog0039)
+- - LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-kidane-578813113/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
