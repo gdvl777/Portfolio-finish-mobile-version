@@ -77,6 +77,9 @@ After you're finished please remove all the comments and instructions!
 	<ul>
     <li>CSS</li>
   </ul>
+	<ul>
+    <li>Javascript</li>
+  </ul>
   <ul>
     <li>linters</li>
   </ul>
@@ -89,6 +92,8 @@ After you're finished please remove all the comments and instructions!
 
 - **Add CSS file**
 
+- **Add JS file**
+
 - **Publish on GitHub**
 
 
@@ -96,9 +101,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo" href="https://gdvl777.github.io/portfolio_desktop_version/"></a>
+## 🚀 Live Demo <a name="live-demo" href="#"></a>
 
--- <a name="live-demo" href="https://gdvl777.github.io/portfolio_desktop_version/">Live Demo</a>
+-- <a name="live-demo" href="#>Live Demo</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
