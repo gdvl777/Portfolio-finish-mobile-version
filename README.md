@@ -38,6 +38,7 @@ Run the command below from the Terminal:
 👤 **Author2**
 - GitHub: [@solog0039](https://github.com/solog0039)
 - - LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-kidane-578813113/)
+- Github: [@Solomon](solog0039@gmail.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
