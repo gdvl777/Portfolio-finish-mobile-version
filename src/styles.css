@@ -6,6 +6,7 @@
   text-decoration: none;
   list-style: none;
 }
+html, body {overflow-x: hidden !important;width: 100vw !important;}
 
 body {
   background-color: #e5e5e5;
@@ -706,7 +707,7 @@ button:active {
 }
 
 .modal-example img {
-  width: 65%;
+  width: 100%;
 }
 
 .modal-example .closeModal {
@@ -877,12 +878,16 @@ ul.project__lang {
   }
 
   .modal-example.show {
-    right: 0;
+    /* right: 0; */
     max-width: 100%;
     bottom: 0;
     max-height: 608px;
     transform: translate(-10%, 0%);
     font-family: 'Poppins', sans-serif;
+    /* display: inline-flex; */
+    /* align-content: center; */
+    right: 78%;
+    left: 22%;
   }
 
   .modal__body {
