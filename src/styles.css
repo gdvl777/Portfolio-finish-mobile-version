@@ -882,6 +882,7 @@ ul.project__lang {
     bottom: 0;
     max-height: 608px;
     transform: translate(-10%, 0%);
+    font-family: 'Poppins', sans-serif;
   }
 
   .modal__body {
