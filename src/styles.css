@@ -9,8 +9,6 @@
 
 body {
   background-color: #e5e5e5;
-  /* filter: blur(8px); */
-  /* -webkit-filter: blur(8px); */
 }
 
 .web-nav {
@@ -71,7 +69,6 @@ body {
   left: 0;
   background-color: #6070ff;
   opacity: 0.95;
-  /* filter: blur(10px); */
 }
 
 .overlay-content {
@@ -81,7 +78,6 @@ body {
   text-align: left;
   margin-top: 30px;
   padding-left: 26px;
-  /* backdrop-filter: blur(137px); */
 }
 
 .hamburger-span {
@@ -99,7 +95,6 @@ body {
   display: block;
   transition: 0.3s;
   line-height: 44px;
-  /* z-index: 2; */
 }
 
 .overlay a:hover,
