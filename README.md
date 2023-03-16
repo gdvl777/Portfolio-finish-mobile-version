@@ -1,51 +1,194 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-# Portfolio Project
+<a name="readme-top"></a>
 
-In this project, I set up my portfolio repository. My goal here was to set up and customize my portfolio for mobile and desktop versions.
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-- ![screenshot](/images/mobile_preview_v1.png)
-- ![screenshot](/images/mobile_preview_v2.png)
-- ![screenshot](/images/mobile_preview_v3.png)
-- ![screenshot](/images/mobile_preview_v4.png)
-## :red_circle: Live Demo
+Modify this file to match your project and remove sections that don't apply.
 
-[Live Preview Link](https://arthurgc.github.io/portfolio-microverse/)
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-## :hammer: Built With
+OPTIONAL SECTIONS:
+- FAQ
 
-- HTML and CSS
+After you're finished please remove all the comments and instructions!
+-->
 
-To get a local copy up and running follow these simple steps:
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  
+  <br/>
 
-1. Go to the [repository page](https://github.com/ArthurGC/portfolio-microverse).
-2. Press the "Code" button and copy the link.
-3. Clone it using git command `git clone <link>`.
+  <h3><b>Portfolio Desktop Version</b></h3>
 
-## :blue_book: Learning Objectives
+</div>
 
-- Understand how to parse a Figma design to create a UI.
-- Flexbox to place elements in the page.
-- Build a personal portfolio site.
-- Use images and backgrounds to enhance the look of the website.
+<!-- TABLE OF CONTENTS -->
 
-## Authors
+# 📗 Table of Contents
 
-👤 **ArthurGC**
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-- GitHub: [@ArthurGC](https://github.com/ArthurGC)
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Portfolio] <a name="about-project"></a>
+
+**[Portfolio]** is a simple page based on the example template of figma
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+  </ul>
+	<ul>
+    <li>CSS</li>
+  </ul>
+	<ul>
+    <li>Javascript</li>
+  </ul>
+  <ul>
+    <li>linters</li>
+  </ul>
+</details>
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Add HTML file**
+
+- **Add CSS file**
+
+- **Add JS file**
+
+- **Publish on GitHub**
 
 
-## 🤝 :raised_hand: :raised_hand: Contributions
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo" href="#"></a>
+
+- <a name="live-demo" href="#">Live Demo</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> To get a local copy up and running, follow these steps.
+
+
+### Prerequisites
+
+In order to run this project you need:In order to run this project you need:
+◦ Installation of Git
+◦ Installation of NPM
+◦ A working browser
+◦ Internet connection
+◦ A code editor like Visual Studio Code
+◦ Installation of Live Server plugging in Visual Studio Code
+
+Please get your browser update.
+To get a local copy up and running follow these simple steps.
+
+Run the command below from the Terminal:
+
+      git clone git@github.com:gdvl777/Portfolio.git in your terminal
+
+	  cd portfolio
+
+	  start /src/index.html
+	  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Author1**
+
+- GitHub: [@gdvl777](https://github.com/gdvl777)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dvillalba777//)  
+
+👤 **Author2**
+- GitHub: [@solog0039](https://github.com/solog0039)
+- - LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-kidane-578813113/)
+- Github: [@Solomon](solog0039@gmail.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+Features coming soon
+- **Add HTML file**
+
+- **Add CSS file**
+
+- **Live Demo on GitHub**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ArthurGC/portfolio-microverse/issues).
+Feel free to check the [issues page](../../issues/).
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Thanks to Microverse
 
-## 📝 License
+<!-- ACKNOWLEDGEMENTS -->
 
-This project is [MIT](LICENSE) licensed.
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank to MICROVERSE
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
