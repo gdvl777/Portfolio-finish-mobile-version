@@ -6,8 +6,8 @@
   text-decoration: none;
   list-style: none;
 }
-html,
-body {
+
+html, body {
   overflow-x: hidden !important;
   width: 100vw !important;
 }
@@ -690,7 +690,7 @@ button:active {
   animation: smoth-effet-open 0.7s;
   top: 0;
   color: #172b4d;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -906,7 +906,7 @@ ul.project__lang {
 
   .desc {
     width: 50%;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
