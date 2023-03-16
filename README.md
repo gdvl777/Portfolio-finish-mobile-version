@@ -101,9 +101,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo" href="#"></a>
+## 🚀 Live Demo <a name="live-demo" href="https://gdvl777.github.io/"></a>
 
-- <a name="live-demo" href="#">Live Demo</a>
+- <a name="live-demo" href="https://gdvl777.github.io/">Live Demo</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,7 +146,7 @@ Run the command below from the Terminal:
 
 👤 **Author2**
 - GitHub: [@solog0039](https://github.com/solog0039)
-- - LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-kidane-578813113/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/solomon-kidane-578813113/)
 - Github: [@Solomon](solog0039@gmail.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -171,7 +171,7 @@ Features coming soon
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/gdvl777/Portfolio-finish-mobile-version/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
