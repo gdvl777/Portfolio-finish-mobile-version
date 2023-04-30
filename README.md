@@ -32,7 +32,7 @@ After you're finished please remove all the comments and instructions!
   
   <br/>
 
-  <h3><b>Portfolio Desktop Version</b></h3>
+  <h3><b>Portfolio Finish mobile version</b></h3>
 
 </div>
 
