@@ -185,8 +185,7 @@ input[type="email"]::placeholder {
   left: 24px;
   top: 276px;
   color: #344563;
-  margin-top: 0;
-  margin-top: -40px;
+  margin-top: -31px;
 }
 
 p.intro1 {
@@ -206,7 +205,6 @@ p.intro1 {
   padding-top: 35px;
   grid-gap: 30px;
   justify-items: center;
-  margin-left: 20%;
 }
 
 .social {
