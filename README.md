@@ -44,7 +44,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -99,11 +98,6 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo" href="https://gdvl777.github.io/"></a>
-
-- <a name="live-demo" href="https://gdvl777.github.io/">Live Demo</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +121,7 @@ To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-      git clone git@github.com:gdvl777/Portfolio.git in your terminal
+      git clone git@github.com:gdvl777/Portfolio-finish-mobile-version.git in your terminal
 
 	  cd portfolio
 
