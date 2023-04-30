@@ -205,6 +205,7 @@ p.intro1 {
   padding-top: 35px;
   grid-gap: 30px;
   justify-items: center;
+  margin-top: 55px;
 }
 
 .social {
@@ -250,7 +251,7 @@ li.social-icon {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 8%;
+  margin: -8%;
 }
 
 .title {
