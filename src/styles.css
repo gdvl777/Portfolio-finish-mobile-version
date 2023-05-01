@@ -370,7 +370,7 @@ li.social-icon {
 
 .skills {
   display: flex;
-  float: left;
+  float: right;
   align-items: center;
   position: static;
   padding: 0.5px;
