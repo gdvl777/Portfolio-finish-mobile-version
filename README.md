@@ -32,7 +32,7 @@ After you're finished please remove all the comments and instructions!
   
   <br/>
 
-  <h3><b>Portfolio Finish mobile version</b></h3>
+  <h3><b>Portfolio Desktop Version</b></h3>
 
 </div>
 
@@ -44,18 +44,19 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
- - [Setup](#getting-started)
-  - [Prerequisites](#getting-started)
-  - [Install](#getting-started)
-  - [Usage](#getting-started)
-  - [Run tests](#getting-started)
-  - [Deployment](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -76,9 +77,6 @@ After you're finished please remove all the comments and instructions!
 	<ul>
     <li>CSS</li>
   </ul>
-	<ul>
-    <li>Javascript</li>
-  </ul>
   <ul>
     <li>linters</li>
   </ul>
@@ -91,12 +89,19 @@ After you're finished please remove all the comments and instructions!
 
 - **Add CSS file**
 
-- **Add JS file**
-
 - **Publish on GitHub**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+-- No deployed link yet
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -118,7 +123,7 @@ To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-      git clone git@github.com:gdvl777/Portfolio-finish-mobile-version.git in your terminal
+      git clone git@github.com:gdvl777/portfolio_desktop_version_05.git in your terminal
 
 	  cd portfolio
 
@@ -157,13 +162,17 @@ Features coming soon
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/gdvl777/Portfolio-finish-mobile-version/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SHOW YOUR SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, let me know. Follow me and I'll follow you!
+All your supports are welcome
+
+Feel free.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

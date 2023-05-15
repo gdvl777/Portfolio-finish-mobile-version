@@ -7,12 +7,6 @@
   list-style: none;
 }
 
-html,
-body {
-  overflow-x: hidden !important;
-  width: 100vw !important;
-}
-
 body {
   background-color: #e5e5e5;
 }
@@ -29,9 +23,9 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 96%;
   height: 50px;
-  padding: -1%;
+  padding: 2%;
   background-color: #fff;
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
@@ -74,7 +68,7 @@ body {
   top: 0;
   left: 0;
   background-color: #6070ff;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 .overlay-content {
@@ -83,7 +77,6 @@ body {
   width: 100%;
   text-align: left;
   margin-top: 30px;
-  padding-left: 26px;
 }
 
 .hamburger-span {
@@ -111,7 +104,7 @@ body {
 .overlay .closebtn {
   position: absolute;
   top: 11px;
-  right: 133px;
+  right: 5px;
   font-size: 30px;
   font-weight: normal;
   border: 2px;
@@ -185,7 +178,8 @@ input[type="email"]::placeholder {
   left: 24px;
   top: 276px;
   color: #344563;
-  margin-top: -31px;
+  margin-top: 0;
+  margin-top: -20px;
 }
 
 p.intro1 {
@@ -202,10 +196,24 @@ p.intro1 {
   display: flex;
   align-items: flex-start;
   padding-left: 15px;
-  padding-top: 35px;
   grid-gap: 30px;
   justify-items: center;
-  margin-top: 55px;
+  margin-left: 20%;
+}
+
+.intro3 {
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 15px;
+  grid-gap: 30px;
+  justify-items: center;
+  margin-left: 2%;
 }
 
 .social {
@@ -238,9 +246,8 @@ li.social-icon {
 .projects {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  width: 90%;
+  padding: 14px;
+  width: 97%;
   height: 600px;
   left: calc(50% - 327px / 2);
   top: 114px;
@@ -251,7 +258,7 @@ li.social-icon {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: -8%;
+  margin: 2%;
 }
 
 .title {
@@ -272,16 +279,11 @@ li.social-icon {
 
 .role {
   display: flex;
-
-  /* grid-template-columns: 1fr 0.5fr 1.5fr 0.5fr 1.5fr 0fr; */
 }
 
 .role-name {
-  position: static;
   width: 55px;
   height: 16px;
-  left: 0;
-  top: 8px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -291,44 +293,37 @@ li.social-icon {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0.5px 2px;
+  margin: 6px 9px;
 }
 
 .role-dot {
   width: 10px;
   height: 10px;
-  left: 67px;
-  top: 12px;
   background: #c1c7d0;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 2.5px 12px;
+  margin: 6.5px 12px;
   border-radius: 50%;
 }
 
 .role-job {
   height: 16px;
-  left: 0;
-  top: 8px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 18px;
   line-height: 16px;
   color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0.5px 0.5px;
+  margin: 4px 0.5px;
 }
 
 .role-year {
-  position: static;
   width: 29px;
   height: 16px;
-  left: 0;
-  top: 8px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -338,7 +333,7 @@ li.social-icon {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0.5px 0.5px;
+  margin: 4px 0.5px;
 }
 
 .project-description {
@@ -472,7 +467,7 @@ button:active {
 .about-me {
   display: flex;
   position: static;
-  width: 70%;
+  width: 40%;
   left: 0.5px;
   top: 0.5px;
   right: auto;
@@ -536,16 +531,17 @@ button:active {
   left: 12px;
   top: 12px;
   display: flex;
-  padding-left: 20px;
   align-items: center;
-  column-gap: 20px;
+  flex-direction: column;
+  column-gap: 25px;
   background: #f7f7f9;
-  border-radius: 8px;
-  margin: 12px 0;
+  border-radius: 24px;
+  margin: 9px 0;
+  padding: 12px 12px 12px 12px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 20px;
   color: #253858;
 }
@@ -568,7 +564,7 @@ button:active {
 .bg-image {
   background-image: url(../assets/contact-me.png);
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: center;
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -579,7 +575,7 @@ button:active {
 .project-section {
   background-color: #e5e5e5;
   width: 90%;
-  padding: 64px;
+  padding: 39px;
 }
 
 .contact-title {
@@ -690,11 +686,6 @@ button:active {
   animation: smoth-effet-open 0.7s;
   top: 0;
   color: #172b4d;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
 }
 
 .modal-btn {
@@ -716,7 +707,7 @@ button:active {
 }
 
 .modal-example img {
-  width: 100%;
+  width: 65%;
 }
 
 .modal-example .closeModal {
@@ -862,7 +853,7 @@ ul.project__lang {
   filter: blur(5px);
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 900px) {
   .body {
     margin: 0;
     background-color: #e5e5e5;
@@ -887,13 +878,11 @@ ul.project__lang {
   }
 
   .modal-example.show {
+    right: 0;
     max-width: 100%;
     bottom: 0;
     max-height: 608px;
     transform: translate(-10%, 0%);
-    font-family: 'Poppins', sans-serif;
-    right: 78%;
-    left: 22%;
   }
 
   .modal__body {
@@ -906,11 +895,6 @@ ul.project__lang {
 
   .desc {
     width: 50%;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
   }
 
   nav {
@@ -920,7 +904,7 @@ ul.project__lang {
     background: #fff;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 13px;
     flex-wrap: wrap;
   }
 
@@ -1020,15 +1004,24 @@ ul.project__lang {
   .projects {
     display: flex;
     flex-direction: row;
-    align-items: normal;
-    margin: 5%;
-    width: 90%;
+    margin: 9%;
+    width: 66%;
     height: 60%;
   }
 
   .img-web {
     display: flex;
     width: 40%;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .img-web:hover {
+    transform: translateY(-2px);
+  }
+
+  .tech-list {
+    display: flex;
+    flex-direction: row;
   }
 
   .project-description {
@@ -1042,12 +1035,15 @@ ul.project__lang {
 
   .project-desc {
     display: flex;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
   }
 
   .role {
+    flex-grow: 0;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
   }
 
@@ -1055,29 +1051,35 @@ ul.project__lang {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 24px;
     color: #344563;
+    padding: 8px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: -26px;
   }
 
   .role-dot {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     left: 67px;
     top: 12px;
     background: #c1c7d0;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 6.5px 22px;
     border-radius: 50%;
+    padding: -3px 0;
+    margin: 18px;
   }
 
   .role-job {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 25px;
     line-height: 24px;
   }
 
@@ -1088,6 +1090,7 @@ ul.project__lang {
     font-size: 18px;
     line-height: 24px;
     color: #6b778c;
+    margin-right: 25px;
   }
 
   .project-details > p {
@@ -1111,20 +1114,20 @@ ul.project__lang {
     flex-direction: row;
     justify-content: center;
     border-radius: 0 100px 0 0;
-    width: 99%;
+    width: 96%;
     padding: 20px;
   }
 
   .about p {
-    margin-left: 2%;
     line-height: 24px;
-    font-size: 20px;
+    font-size: 17px;
+    text-align: left;
     align-items: center;
     justify-content: center;
   }
 
   .about-me {
-    padding: 22%;
+    padding: 1%;
     margin-left: 3%;
   }
 
@@ -1134,8 +1137,9 @@ ul.project__lang {
   }
 
   .social {
-    margin-left: 4%;
+    margin-left: 1%;
     width: 70%;
+    margin-top: 100px;
   }
 
   .button-resume {
@@ -1147,8 +1151,8 @@ ul.project__lang {
   }
 
   .left {
-    width: 50%;
-    margin-left: 5%;
+    width: 40%;
+    margin-left: 0%;
   }
 
   .line {
