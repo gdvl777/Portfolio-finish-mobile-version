@@ -140,6 +140,14 @@ Run the command below from the Terminal:
 - GitHub: [@gdvl777](https://github.com/gdvl777)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dvillalba777//)  
 
+> Collaborator
+
+👤 **Andrea Manuel**
+
+- GitHub: [@AndreaM2429](https://github.com/AndreaM2429)
+- Twitter: [@twitter](https://twitter.com/AndreaManuelOr1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/andrea-manuel-2b075026a/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
