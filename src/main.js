@@ -14,13 +14,13 @@ document.querySelectorAll('.pop-nav').forEach((link) => {
   });
 });
 
-const projectname = document.querySelector('.projectname');
+/*const projectname = document.querySelector('.projectname');*/
 const workSections = document.querySelector('.project-section');
 const modal = document.querySelector('.modal-example');
-const modalImg = document.querySelector('.modal-img');
-const company = document.querySelector('.company');
-const role = document.querySelector('.role');
-const year = document.querySelector('.year');
+/*const modalImg = document.querySelector('.modal-img');*/
+/*const company = document.querySelector('.company');*/
+/*const role = document.querySelector('.role');*/
+/*const year = document.querySelector('.year');*/
 
 const projectsList = [
   {
@@ -185,11 +185,11 @@ for (let i = 0; i < projectsList.length; i += 1) {
           </div>
         </div>
         `;
-    /*projectname.innerHTML = projectsList[i].name;
+    /* projectname.innerHTML = projectsList[i].name;
     modalImg.src = projectsList[i].imageLink;
     company.innerHTML = projectsList[i].company;
     role.innerHTML = projectsList[i].role;
-    year.innerHTML = projectsList[i].year;*/
+    year.innerHTML = projectsList[i].year; */
 
     document.querySelector('.project-section').classList.add('blur');
     document.querySelector('.header').classList.add('blur');
