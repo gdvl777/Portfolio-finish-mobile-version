@@ -148,63 +148,67 @@ for (let i = 0; i < projectsList.length; i += 1) {
 }
 
 for (let i = 0; i < projectsList.length; i += 1) {
-  document.querySelector(`.project-modal-${i}`).addEventListener('click', () => {
-    modal.innerHTML += `
+  const projectModal = document.querySelector(`.project-modal-${i}`);
+  projectModal.addEventListener('click', () => {
+    const { name, company, role, year, imageLink } = projectsList[i];
 
-    <div class="modal-head">
-          <h2 class="projectname">${projectsList[i].name}</h2>
-          <button type="button" class="closeModal">&times;</button>
+    modal.innerHTML = `
+      <div class="modal-head">
+        <h2 class="projectname">${name}</h2>
+        <button type="button" class="closeModal">&times;</button>
+      </div>
+      <div class="modal__body">
+        <div class="short_desc">
+          <h4 class="company">${company}</h4>
+          <span></span>
+          <h4 class="role">${role}</h4>
+          <span></span>
+          <h6 class="year">${year}</h6>
         </div>
-        <div class="modal__body">
-          <div class="short_desc">
-            <h4 class="company">${projectsList[i].company}</h4>
-            <span></span>
-            <h4 class="role">${projectsList[i].role}</h4>
-            <span></span>
-            <h6 class="year">${projectsList[i].year}</h6>
-          </div>
-          <img src="${projectsList[i].imageLink}" alt="img" class="modal-img">
-          <div class="project-desc">
-            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatem pariatur modi rerum error
-              ea consequatur, excepturi eum maiores! Quo quibusdam culpa ratione.?Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit.
-              !</p>
-            <div class="desc_btn">
-              <ul class="project__lang">
-                <li><a href="" class="lang1" title="html">html</a></li>
-                <li><a href="" class="lang1" title="css">css</a></li>
-                <li>
-                  <a href="#" class="lang1" title="javascript">javascript</a>
-                </li>
-              </ul>
-              <div class="final">
-                <button type="button" class="modal-btn">See live <i class="fa fa-external-link" aria-hidden="true"></i></button>
-                <button type="button" class="modal-btn">See source <i class="fa fa-github"></i></button>
-              </div>
+        <img src="${imageLink}" alt="img" class="modal-img">
+        <div class="project-desc">
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatem pariatur modi rerum error
+            ea consequatur, excepturi eum maiores! Quo quibusdam culpa ratione.?Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit.
+          </p>
+          <div class="desc_btn">
+            <ul class="project__lang">
+              <li><a href="" class="lang1" title="html">html</a></li>
+              <li><a href="" class="lang1" title="css">css</a></li>
+              <li>
+                <a href="#" class="lang1" title="javascript">javascript</a>
+              </li>
+            </ul>
+            <div class="final">
+              <button type="button" class="modal-btn">See live <i class="fa fa-external-link" aria-hidden="true"></i></button>
+              <button type="button" class="modal-btn">See source <i class="fa fa-github"></i></button>
             </div>
           </div>
         </div>
-        `;
-    /* projectname.innerHTML = projectsList[i].name;
-    modalImg.src = projectsList[i].imageLink;
-    company.innerHTML = projectsList[i].company;
-    role.innerHTML = projectsList[i].role;
-    year.innerHTML = projectsList[i].year; */
+      </div>
+    `;
 
-    document.querySelector('.project-section').classList.add('blur');
-    document.querySelector('.header').classList.add('blur');
-    document.querySelector('.content').classList.add('blur');
-    document.querySelector('.about').classList.add('blur');
-    document.querySelector('.contact-me').classList.add('blur');
+    const projectSection = document.querySelector('.project-section');
+    const header = document.querySelector('.header');
+    const content = document.querySelector('.content');
+    const about = document.querySelector('.about');
+    const contactMe = document.querySelector('.contact-me');
+
+    projectSection.classList.add('blur');
+    header.classList.add('blur');
+    content.classList.add('blur');
+    about.classList.add('blur');
+    contactMe.classList.add('blur');
     modal.classList.add('show');
+
+    document.querySelector('.closeModal').addEventListener('click', () => {
+      modal.style.display = 'none';
+      window.location.reload();
+      header.classList.remove('blur');
+      content.classList.remove('blur');
+    });
   });
 }
-document.querySelector('.closeModal').addEventListener('click', () => {
-  modal.style.display = 'none';
-  window.location.reload();
-  document.querySelector('.header').classList.remove('blur');
-  document.querySelector('.showcase').classList.remove('blur');
-});
 
 const email = document.querySelector('#useremail');
 const validationAlert = document.querySelector('.alert');
