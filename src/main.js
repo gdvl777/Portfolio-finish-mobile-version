@@ -149,11 +149,47 @@ for (let i = 0; i < projectsList.length; i += 1) {
 
 for (let i = 0; i < projectsList.length; i += 1) {
   document.querySelector(`.project-modal-${i}`).addEventListener('click', () => {
-    projectname.innerHTML = projectsList[i].name;
+    modal.innerHTML += `
+
+    <div class="modal-head">
+          <h2 class="projectname">${projectsList[i].name}</h2>
+          <button type="button" class="closeModal">&times;</button>
+        </div>
+        <div class="modal__body">
+          <div class="short_desc">
+            <h4 class="company">${projectsList[i].company}</h4>
+            <span></span>
+            <h4 class="role">${projectsList[i].role}</h4>
+            <span></span>
+            <h6 class="year">${projectsList[i].year}</h6>
+          </div>
+          <img src="${projectsList[i].imageLink}" alt="img" class="modal-img">
+          <div class="project-desc">
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatem pariatur modi rerum error
+              ea consequatur, excepturi eum maiores! Quo quibusdam culpa ratione.?Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit.
+              !</p>
+            <div class="desc_btn">
+              <ul class="project__lang">
+                <li><a href="" class="lang1" title="html">html</a></li>
+                <li><a href="" class="lang1" title="css">css</a></li>
+                <li>
+                  <a href="#" class="lang1" title="javascript">javascript</a>
+                </li>
+              </ul>
+              <div class="final">
+                <button type="button" class="modal-btn">See live <i class="fa fa-external-link" aria-hidden="true"></i></button>
+                <button type="button" class="modal-btn">See source <i class="fa fa-github"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        `;
+    /*projectname.innerHTML = projectsList[i].name;
     modalImg.src = projectsList[i].imageLink;
     company.innerHTML = projectsList[i].company;
     role.innerHTML = projectsList[i].role;
-    year.innerHTML = projectsList[i].year;
+    year.innerHTML = projectsList[i].year;*/
 
     document.querySelector('.project-section').classList.add('blur');
     document.querySelector('.header').classList.add('blur');
