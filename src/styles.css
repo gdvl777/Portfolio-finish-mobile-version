@@ -706,10 +706,6 @@ button:active {
   display: flex;
 }
 
-.modal-example img {
-  width: relative;
-}
-
 .modal-example .closeModal {
   font-size: 50px;
   color: #67798e;
