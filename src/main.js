@@ -152,7 +152,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
   projectModal.addEventListener('click', () => {
     const {
       name, company, role, year, imageLink,
-  } = projectsList[i];
+    } = projectsList[i];
 
     modal.innerHTML = `
       <div class="modal-head">
