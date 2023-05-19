@@ -707,7 +707,7 @@ button:active {
 }
 
 .modal-example img {
-  width: 65%;
+  width: relative;
 }
 
 .modal-example .closeModal {
@@ -853,6 +853,12 @@ ul.project__lang {
   filter: blur(5px);
 }
 
+@media (max-width: 768px) {
+  .desc {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
 @media screen and (min-width: 900px) {
   .body {
     margin: 0;
@@ -877,16 +883,22 @@ ul.project__lang {
     padding: 2%;
   }
 
+  .modal-example img {
+    width: 43em;
+  }
+
   .modal-example.show {
-    right: 0;
+    right: 100px;
     max-width: 100%;
-    bottom: 0;
-    max-height: 608px;
+    bottom: -36px;
+    max-height: 645px;
     transform: translate(-10%, 0%);
   }
 
   .modal__body {
     overflow-y: auto;
+    height: 734px;
+    margin-left: 42px;
   }
 
   .modal-img {
@@ -895,6 +907,7 @@ ul.project__lang {
 
   .desc {
     width: 50%;
+    font-family: 'Poppins', sans-serif;
   }
 
   nav {
@@ -1005,7 +1018,7 @@ ul.project__lang {
     display: flex;
     flex-direction: row;
     margin: 9%;
-    width: 66%;
+    width: 75%;
     height: 60%;
   }
 
@@ -1027,6 +1040,7 @@ ul.project__lang {
   .project-description {
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
   }
 
   .project-details {
@@ -1035,13 +1049,14 @@ ul.project__lang {
 
   .project-desc {
     display: flex;
+    font-family: 'Poppins', sans-serif;
   }
 
   .role {
     flex-grow: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 14px;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -1099,7 +1114,7 @@ ul.project__lang {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    width: 496px;
+    width: 493px;
     height: 50px;
     left: 24px;
     top: 146px;
