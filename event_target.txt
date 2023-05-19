@@ -1,0 +1,5 @@
+modal.addEventListener('click', (e) => {
+  if (e.target.classList.contains('closeModal')) {
+    modal.style.display = 'none';
+  }
+});
