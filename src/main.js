@@ -151,8 +151,8 @@ for (let i = 0; i < projectsList.length; i += 1) {
   const projectModal = document.querySelector(`.project-modal-${i}`);
   projectModal.addEventListener('click', () => {
     const {
-      name, company, role, year, imageLink
-      } = projectsList[i];
+      name, company, role, year, imageLink,
+  } = projectsList[i];
 
     modal.innerHTML = `
       <div class="modal-head">
