@@ -152,10 +152,12 @@ ul {
 }
 
 .card-buttons {
-  display: flex;
-  flex-direction: row;
-  margin-left: 0;
-  padding-bottom: 0;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* margin-left: 0; */
+  /* padding-bottom: 0; */
+  
+
 }
 
 .card-buttons li {
