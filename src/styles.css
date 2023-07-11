@@ -553,16 +553,16 @@ button:active {
   background: #dfe1e6;
 }
 
-/* .contact-me { 
+.contact-me {
   background-color: #6070ff;
   border: 1px solid #cfd8dc;
   border-radius: 100px 0 0 0;
   margin-top: 0%;
   width: 98%;
-} */
+}
 
 .bg-image {
-  background-image: url(../assets/image-contactme.png);
+  background-image: url(../assets/contact-me.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: contain;
@@ -590,7 +590,7 @@ button:active {
   color: #fff;
   height: 56px;
   justify-content: center;
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
 .contact-text {
