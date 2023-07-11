@@ -236,6 +236,7 @@ contactForm.addEventListener('input', () => {
   };
   localStorage.setItem('userData', JSON.stringify(userData));
 });
+
 const userDataFromLocalStorage = JSON.parse(localStorage.getItem('userData'));
 nameField.value = userDataFromLocalStorage.name;
 emailAddressField.value = userDataFromLocalStorage.email;
