@@ -554,17 +554,17 @@ button:active {
 }
 
 .contact-me {
-  background-color: #6070ff;
-  border: 1px solid #cfd8dc;
-  border-radius: 100px 0 0 0;
+  background-color: #ffffff;
   margin-top: 0%;
-  width: 98%;
+  width: 100%;
 }
 
 .bg-image {
+  background-color: #6070ff;
+  border-radius: 100px 0 0 0;
   background-image: url(../assets/contact-me.png);
   background-repeat: no-repeat;
-  background-position-x: center;
+  background-position-x: right;
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -594,15 +594,10 @@ button:active {
 }
 
 .contact-text {
-  padding-left: 20%;
-  padding-right: 20%;
-  margin-bottom: 40px;
-  width: 70%;
-  display: flex;
-  align-items: center;
+  margin: 0 auto 40px;
+  width: 90%;
   text-align: center;
   color: #ebebff;
-  justify-content: center;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
