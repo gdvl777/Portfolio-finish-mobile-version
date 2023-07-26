@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-**[Portfolio]** is a simple page based on the example template of figma
+**[Portfolio]** is a simple page based on the example template of figma. The main goal of this project is to use local storage to save user input. That way when the user reloads the page the data they filled out in the form will be preserved.
 
 ## 🛠 Built With <a name="built-with"></a>
 
