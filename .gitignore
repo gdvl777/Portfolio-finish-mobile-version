@@ -1,7 +1,8 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
-# .gitignore
 node_modules/
+
+dist/*.html
+dist/*.css
+
+test.md
+
+.DS_Store
